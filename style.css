@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+canvas {
+    background-color: black;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 25px 10px rgba(255, 255, 255, .5);
+    z-index: -1;
+}
+
+body {
+    background-color: #050A30;
+}
+
+#carrot {
+    width: 14%;
+    height: 19%;
+}
+
+.score {
+    position: fixed;
+    font-size: 4em;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    pointer-events: none;
+}
+
+#scoreNum {
+    position: absolute;
+    left: 15%;
+}
+
+.instructionsHeader {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 4em;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    cursor: pointer;
+    margin-right: 5%;
+    transition: 0.5s;
+}
+
+.instructionsHeader:hover {
+    font-size: 4.5em;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+}
+
+.instructions1 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 9%;
+}
+
+.instructions2 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 11%;
+}
+
+.instructions3 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4%;
+}
+
+.instructions4 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+#endScore-Wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+#endScore-Wrapper span {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 12em;
+}
+
+#endScore-Wrapper img {
+    width: 15%;
+    height: 22%;
+}
+
+#start-btn {
+    width: 25%;
+    height: 15%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    opacity: 0.5;
+}
+
+
+
+
